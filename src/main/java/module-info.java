@@ -12,6 +12,7 @@ module com.example.intrfx {
     requires com.almasb.fxgl.all;
     requires java.sql;
 
+
     opens com.example.intrfx.Model to javafx.base;
     opens com.example.intrfx to javafx.fxml;
     exports com.example.intrfx;
